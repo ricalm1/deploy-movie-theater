@@ -105,6 +105,21 @@
 }
 
 
+@media screen and (min-width:900px) {
+    .booking-module {
+        align-items: center;
+    }
+
+    .booking-module-text p {
+        align-self: center;
+    }
+
+    .booking-module button {
+        position: static;
+        margin-top: 2rem;
+    }
+    
+}
 
 @media screen and (min-width: 1200px) {
 

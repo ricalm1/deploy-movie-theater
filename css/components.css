@@ -20,12 +20,12 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
   }
   
   body{
-      background-color: var(--primary-bg-color);
-      size: 16px;
+    background-color: var(--primary-bg-color);
+    size: 16px;
+    overflow-x: hidden;
    }
   
    h1 {
@@ -114,20 +114,18 @@
 .carousel {
     margin-left: 1rem;
     margin-right: 0;
+    margin-top: 2rem;
     display: flex;
     column-gap: 0.5rem;
-    width: 90vw;
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
 
 .card {
-    height: 450px;
     flex: 0 0 290px;
-    scroll-snap-align: start;
-    margin-bottom: 3rem;
-}
+    scroll-snap-align: center;
+  }
 
 .card img {
     width: 100%;
