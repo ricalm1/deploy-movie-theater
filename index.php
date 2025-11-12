@@ -27,13 +27,74 @@
             <button class="button-info">About the movie</button>
         </div>
     </div>
-    <h2>WATCH NOW</h2>
-    <div class="carousel-container">
-        <img class="carousel-img" src="images/Brokebackend.png">
-        <img class="carousel-img" src="images/GreatGitsby.png">
-        <img class="carousel-img" src="images/drypoet.png">
-        §
-    </div>
+
+    <section class="carousel">
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+    </section>
+
 
     <section class="offer">
 
@@ -58,12 +119,72 @@
             <button>Subscribe</button>
         </div>
     </div>
-    <h2>Coming soon!</h2>
-    <div class="upcoming-movies">
-        <img class="carousel-img" src="images/Brokebackend.png">
-        <img class="carousel-img" src="images/GreatGitsby.png">
-        <img class="carousel-img" src="images/drypoet.png">
-    </div>
+    <section class="carousel">
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </div>
+    </section>
 
 
 
