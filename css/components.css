@@ -125,7 +125,7 @@
 .card {
     height: 450px;
     flex: 0 0 290px;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     margin-bottom: 3rem;
 }
 
