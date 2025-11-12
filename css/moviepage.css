@@ -1,0 +1,149 @@
+.movie-presentation {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-container h1 {
+    position: absolute;
+    bottom: 1rem;
+    left: 47%;
+    width: 50%;
+    font-size: 2rem; 
+  }
+
+  .moviepage-poster {
+    position: absolute;
+    right: 58%;
+    bottom: -25%;
+    height: 50%;
+
+    border: 0.2rem solid var(--contrast-color);
+    border-radius: 0.5rem;
+  }
+
+  .movie-presentation button {
+    position: absolute;
+    bottom: -5rem;
+    left: 47%;
+  }
+
+  .movie-information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 40% 1.5rem 20% 1.5rem;
+  }
+
+  .movie-information h2 {
+    text-align: left;
+  }
+
+  .info-boxes {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-box {
+    background-color: var(--gold-100);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    color: var(--primary-txt-color);
+    font-weight: 200;
+  }
+
+  /* --- BOOKING MODULE --- */
+
+  .booking-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 2rem 6rem 2rem;
+    position: relative;
+  }
+
+  .booking-module-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .booking-module-text p strong {
+    font-size: 18px;
+  }
+
+  .booking-module-text h2{
+    text-align: left;
+    margin-bottom: 0.3rem;
+  }
+
+  .date-block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    font-family: var(--p-font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .date-block {
+      background-color: var(--light-grey);
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+      width: 68px;
+      height: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+}
+
+#date-block-selected {
+    background-color: var(--contrast-color);
+}
+
+  #more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .time-block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    font-family: var(--p-font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .time-block {
+      background-color: var(--light-grey);
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+      width: 68px;
+      height: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+  }
+
+  .booking-module button {
+    position: absolute;
+    right: 10%;
+    bottom: 2rem;
+  }
