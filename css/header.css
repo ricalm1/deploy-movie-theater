@@ -1,0 +1,47 @@
+h1{
+    color:white;
+    font-family: 'Passion One';
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.logo{
+    width: 20%;
+    /* height: 0%; */
+    margin: 2% 2%;  
+}
+
+header {
+    background-color: var(--secondary-bg-color);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.hero-img {
+    width: 100%;               
+    display: block;
+    object-fit: cover;
+    object-position: top center;
+    filter: brightness(0.5);
+    transition: object-position 0.2s ease;
+}
+
+
+
+/* When screen is larger, adjust the focus */
+@media (min-width: 768px) {
+    .hero-img {
+        object-position: 50% 30%;
+    }
+}
