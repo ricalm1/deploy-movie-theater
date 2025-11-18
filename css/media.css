@@ -68,12 +68,14 @@
     }
     
     .button-container {
+        display: flex;
+        flex-direction: column;
         bottom: 40px;
     }
     
-    .button-main, .button-info {
+   /*  .button-main, .button-info {
         width: 220px;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
@@ -82,7 +84,7 @@
     }
     
     .button-main, .button-info {
-        width: 180px;
+        /* width: 180px; */
         font-size: 14px;
         padding: 10px 20px;
     }
@@ -99,7 +101,7 @@
     }
     
     .button-main, .button-info {
-        width: 160px;
+        /* width: 160px; */
         font-size: 13px;
     }
 }
@@ -118,7 +120,7 @@
 
   .image-container h1 {
     left: 35%;
-    width: 25%;
+    text-align: start;
     font-size: 3rem;
   }
 
@@ -174,6 +176,21 @@
     grid-column: 3 / 5;
     grid-row: 2 / 4;
     background-color: black;
+  }
+
+  .heroInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;  
+    bottom: 80px;        
+    left: 30%;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
   }
 
 

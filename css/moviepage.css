@@ -3,9 +3,9 @@
   }
 
   .image-container > h1 {
-    position: absolute;
+    /* position: absolute; */
     bottom: 1rem;
-    left: 47%;
+    /* left: 47%; */
     width: 50%;
     font-size: 2rem; 
   }
