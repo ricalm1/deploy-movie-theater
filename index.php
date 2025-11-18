@@ -108,71 +108,48 @@
             <button>Subscribe</button>
         </div>
     </div>
-    <h2>Upcoming movies!</h2>
+    </div>
     <section class="carousel">
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
-        </div>
+            <img src="/images/GreatGitsby.png">
 
-        <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Brokebackend.png">
+
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/GOODWILLCODING.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/gitPullfiction.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/commitment.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/nowyoucme.png">
+
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/dieploy.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Undefined.png">
+
+        </div>
         </div>
     </section>
 
