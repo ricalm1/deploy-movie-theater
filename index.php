@@ -109,6 +109,7 @@
         </div>
     </div>
     </div>
+    <h3>Coming soon!</h3>
     <section class="carousel">
         <div class="card">
             <img src="/images/GreatGitsby.png">
