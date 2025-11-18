@@ -22,7 +22,8 @@
     </header>
     <div class="image-container">
         <img class="hero-img" src="/images/FILEZILLA.png">
-        <h1>Filezilla -<br> King of Monsters</h1>
+        <h1 class="title">Filezilla -<br> King of Monsters</h1>
+
         <div class="button-container">
 
 
@@ -32,6 +33,7 @@
             <button class="button-main">About the movie! <img src="images/button-arrow.png"></button></a>
         </div>
     </div>
+    <h3>Watch now! </h3>
 
     <section class="carousel">
         <div class="card">

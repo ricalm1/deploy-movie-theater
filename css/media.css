@@ -178,3 +178,8 @@
 
 
 }
+@media (min-width: 768px) {
+    .hero-img {
+        object-position: 50% 30%;
+    }
+}

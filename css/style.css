@@ -34,6 +34,9 @@ body{
   font-size: 40px;
   font-weight: normal;
   letter-spacing: 1px;
+  position: absolute;
+  left:37;
+  top:20;
  }
 
  h2{
@@ -44,6 +47,17 @@ body{
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: 1px;
+}
+
+h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 4rem;
+    color: var(--primary-txt-color);
+    --primary-font-family: 'Passion One', sans-serif;
+    padding-bottom: 1rem;
 }
 
 
@@ -133,18 +147,6 @@ body{
     padding: 0 20px;
 }
 
-
-h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    width: fit-content;
-    font-size: 4rem;
-    color: var(--primary-txt-color);
-    --primary-font-family: 'Passion One', sans-serif;
-    
-}
 
 .carousel {
     margin-left: 1rem;

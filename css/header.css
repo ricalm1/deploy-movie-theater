@@ -1,8 +1,9 @@
 header {
     display: flex;
-    align-items: center; /* Vertically centers content */
+    align-items: center; 
     height: 7vh;
     margin-top:0.5rem;
+
 }
 
 header .logo {
@@ -27,16 +28,9 @@ header .logo {
     object-position: top center;
     filter: brightness(0.5);
     transition: object-position 0.2s ease;
-    
 }
 
 
 
 
 
-/* When screen is larger, adjust the focus */
-@media (min-width: 768px) {
-    .hero-img {
-        object-position: 50% 30%;
-    }
-}

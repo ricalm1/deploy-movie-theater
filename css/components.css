@@ -33,6 +33,11 @@
     color: #000;
   }
 
+.button-container .button-info{
+  position: absolute;
+  top: 20;
+  left: 20;
+}
 
   /* --- CAROUSEL -- */
 
