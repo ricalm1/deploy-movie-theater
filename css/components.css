@@ -73,12 +73,6 @@
       margin: 2% 2%;  
   }
   
-  header {
-      background-color: var(--secondary-bg-color);
-  }
-  
-
-
   .button-main{
     background-color: var(--light-grey);
   }
@@ -111,16 +105,6 @@
 
   /* --- CAROUSEL -- */
 
-.carousel {
-    margin-left: 1rem;
-    margin-right: 0;
-    display: flex;
-    column-gap: 0.5rem;
-    width: 90vw;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-}
 
 .card {
     height: 450px;
