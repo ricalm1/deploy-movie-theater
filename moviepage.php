@@ -48,76 +48,29 @@
 
     </section>
 
-    <!--GALLERY-->
+    <!--GALLERY CAROUSEL-->
     <div class="secondary-background gallery-carousel">
+        <h2>GALLERY</h2>
         <section class="carousel">
             <div class="card">
                 <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
             </div>
 
             <div class="card">
                 <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
             </div>
+
             <div class="card">
                 <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
             </div>
+
             <div class="card">
                 <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="">
-                <div class="card-text">
-                    <p><strong>Produktnamn</strong> <br>
-                        Pris</p>
-                </div>
             </div>
         </section>
     </div>
 
+    <!-- DESKTOP ONLY: GALLERY GRID -->
     <div class="secondary-background" id="gallery-grid">
         <h2>GALLERY</h2>
         <div class="gallery-grid-container">
@@ -125,11 +78,6 @@
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-
         </div>
     </div>
 
@@ -166,14 +114,26 @@
     </section>
     <div class="divider-gold"></div>
 
-    <!--CAROUSEL-->
-    <div class="secondary-background">
+    <!--YOU MAY ALSO LIKE CAROUSEL-->
+    <div class="secondary-background gallery-carousel">
         <h2>YOU MAY ALSO LIKE</h2>
-        <div class="carousel-container">
-            <img class="carousel-img" src="images/Brokebackend.png">
-            <img class="carousel-img" src="images/GreatGitsby.png">
-            <img class="carousel-img" src="images/drypoet.png">
-        </div>
+        <section class="carousel">
+            <div class="card">
+                <img src="">
+            </div>
+
+            <div class="card">
+                <img src="">
+            </div>
+
+            <div class="card">
+                <img src="">
+            </div>
+
+            <div class="card">
+                <img src="">
+            </div>
+        </section>
     </div>
 
     <?php

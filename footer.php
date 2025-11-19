@@ -22,8 +22,8 @@
 
         <section class="p3">
             <p><strong>Socials</strong></p>
-        </section>
-        <section class="grid-logos">
+            <!-- </section>
+        <section class="grid-logos"> -->
             <img class="fb" src="images/fb-logo.svg">
             <img class="ig" src="images/ig-logo.svg">
             <img class="x" src="images/x-logo.svg">

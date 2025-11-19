@@ -23,10 +23,10 @@
     overflow-x: hidden;
   }
 
-body{
-    background-color: var(--primary-bg-color);
-    size: 16px;
- }
+  .secondary-background {
+    background-color: var(--secondary-bg-color);
+    padding: 3rem;
+  }
 
  h1 {
   font-family: Passion One;
