@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/offer.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/movie-presentation.css">
 
 </head>
 
@@ -20,19 +21,15 @@
         <img class="logo" src="images/Logga(1).png">
     </header>
 
-
     <!-- BACKGROUND IMAGE, MOVIE POSTER, H1 & BUTTON -->
-    <div class="moviepage-image-container">
-        <img class="hero-img" src="/images/FILEZILLA.png">
+    <section class="movie-presentation">
+        <div class="moviepage-image-container">
+            <h1 class="movie-presentation-h1">Filezilla - King of Monsters</h1>
+        </div>
+        <img class="moviepage-poster" src="images/FILEZILLA.png">
+        <button class="button-info">Get your tickets! <img src="images/button-arrow.png"></button>
 
-        <section class="moviepage-movie-presentation">
-            <h1>Filezilla - King of Monsters</h1>
-            <img class="moviepage-poster" src="images/FILEZILLA.png">
-            <button class="button-info">Get your tickets! <img src="images/button-arrow.png"></button>
-        </section>
-
-    </div>
-
+    </section>
 
 
     <section class="movie-information">
