@@ -19,16 +19,21 @@
     <header>
         <img class="logo" src="images/Logga(1).png">
     </header>
-    <section class="movie-presentation">
 
-        <!-- BACKGROUND IMAGE, MOVIE POSTER, H1 & BUTTON -->
-        <div class="image-container">
+
+    <!-- BACKGROUND IMAGE, MOVIE POSTER, H1 & BUTTON -->
+    <div class="moviepage-image-container">
+        <img class="hero-img" src="/images/FILEZILLA.png">
+
+        <section class="moviepage-movie-presentation">
             <h1>Filezilla - King of Monsters</h1>
             <img class="moviepage-poster" src="images/FILEZILLA.png">
             <button class="button-info">Get your tickets! <img src="images/button-arrow.png"></button>
-        </div>
+        </section>
 
-    </section>
+    </div>
+
+
 
     <section class="movie-information">
         <h2>Information</h2>

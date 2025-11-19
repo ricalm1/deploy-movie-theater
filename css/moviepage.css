@@ -1,15 +1,22 @@
-.movie-presentation {
+
+  .moviepage-image-container {
+    height: 90vh;
+    overflow-y: hidden;
     position: relative;
   }
 
-  .image-container > h1 {
-    /* position: absolute; */
+  .moviepage-image-container h1 {
+    position: absolute;
     bottom: 1rem;
-    /* left: 47%; */
+    left: 47%;
     width: 50%;
     font-size: 2rem; 
   }
 
+  .moviepage-movie-presentation {
+    z-index: 99;
+  }
+  
   .moviepage-poster {
     position: absolute;
     right: 58%;
@@ -20,11 +27,14 @@
     border-radius: 0.5rem;
   }
 
-  .movie-presentation button {
+  /* .movie-presentation button {
     position: absolute;
     bottom: -5rem;
     left: 47%;
-  }
+  } */
+
+
+  /* --- MOVIE INFORMATION --- */
 
   .movie-information {
     position: relative;
@@ -143,4 +153,3 @@
     right: 10%;
     bottom: 2rem;
   }
-  
