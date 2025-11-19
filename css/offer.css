@@ -4,6 +4,15 @@
     position: relative;
 }
 
+.offer > img:last-of-type {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+
 #popcorn {
     position: relative;  
     width: 100%;

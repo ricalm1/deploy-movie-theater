@@ -2,14 +2,10 @@
     position: relative;
   }
 
-  .image-container {
-    position: relative;
-  }
-
-  .image-container h1 {
-    position: absolute;
+  .image-container > h1 {
+    /* position: absolute; */
     bottom: 1rem;
-    left: 47%;
+    /* left: 47%; */
     width: 50%;
     font-size: 2rem; 
   }
@@ -147,3 +143,4 @@
     right: 10%;
     bottom: 2rem;
   }
+  
