@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deploy theater</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/moviepage.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/offer.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/moviepage.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="css/media.css">
 
 
 </head>
@@ -37,52 +37,40 @@
     <section class="carousel">
         <div class="card">
             <img src="/images/drypoet.png">
-
-
-        </div>
         </div>
 
         <div class="card">
             <img src="/images/GreatGitsby.png">
-
-
         </div>
-        </div>
+
         <div class="card">
             <img src="/images/Brokebackend.png">
-
         </div>
+
         <div class="card">
             <img src="/images/GOODWILLCODING.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/gitPullfiction.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/commitment.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/nowyoucme.png">
-
-
         </div>
-        </div>
+
         <div class="card">
             <img src="/images/dieploy.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/Undefined.png">
+        </div>
 
-        </div>
-        </div>
     </section>
 
 
@@ -112,47 +100,39 @@
     </div>
     <h3>Coming soon!</h3>
     <section class="carousel">
+
         <div class="card">
             <img src="/images/GreatGitsby.png">
-
-
         </div>
-        </div>
+
         <div class="card">
             <img src="/images/Brokebackend.png">
 
         </div>
         <div class="card">
             <img src="/images/GOODWILLCODING.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/gitPullfiction.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/commitment.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/nowyoucme.png">
-
-
         </div>
-        </div>
+
         <div class="card">
             <img src="/images/dieploy.png">
+        </div>
 
-        </div>
-        </div>
         <div class="card">
             <img src="/images/Undefined.png">
+        </div>
 
-        </div>
-        </div>
     </section>
 
 

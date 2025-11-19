@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/moviepage.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/offer.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/movie-presentation.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/moviepage.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="css/media.css">
 
 </head>
 
@@ -25,9 +25,9 @@
     <section class="movie-presentation">
         <div class="moviepage-image-container">
             <h1 class="movie-presentation-h1">Filezilla - King of Monsters</h1>
+            <img class="moviepage-poster" src="images/FILEZILLA.png">
+            <button class="button-info">Get your tickets! <img src="images/button-arrow.png"></button>
         </div>
-        <img class="moviepage-poster" src="images/FILEZILLA.png">
-        <button class="button-info">Get your tickets! <img src="images/button-arrow.png"></button>
 
     </section>
 
@@ -43,8 +43,8 @@
         <p><strong>About:</strong> The world is beset by the appearance of monstrous creatures,
             but one of them may be the only one who can save humanity.</p>
         <div class="movie-information-details">
-            <p><strong>Director:</strong> </p>
-            <p><strong>Actors:</strong> </p>
+            <p><strong>Director:</strong> Rickard Almgren</p>
+            <p><strong>Actors:</strong> Tyrannousaurus Flex, Clawdette Wilson, Gittan Hubert, </p>
             <p><strong>Language:</strong> English</p>
         </div>
 
@@ -76,10 +76,10 @@
     <div class="secondary-background" id="gallery-grid">
         <h2>GALLERY</h2>
         <div class="gallery-grid-container">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div><img src="/images/filezillathink.png" alt=""></div>
+            <div><img src="/images/filezilawine.png" alt=""></div>
+            <div><img src="/images/filezillacute.png" alt=""></div>
+            <div><img src="/images/filezilacrazy.png" alt=""></div>
         </div>
     </div>
 

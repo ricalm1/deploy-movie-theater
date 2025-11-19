@@ -1,119 +1,65 @@
-footer{
+  footer{
     background-color: var(--contrast-color);
     position: relative;
     overflow-x: hidden;
-
   }
 
-footer p {
-      color: var(--primary-bg-color);
-}
-footer p strong {
-      color: var(--primary-bg-color);
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(12, auto);
-}
-
-.footer-grid .logo {
-  width: 50%;
-  margin-top: 2rem;
-  justify-self: center;
-
-  grid-column: 3 / 5;
-  grid-row: 2 / 3;
-}
-
-.footer-grid .p1 {
-  text-align: center;
-  padding: 10px;
-  
-  grid-column: 3 / 5;
-  grid-row: 4 / 6;
-}
-
-.footer-grid .p2 {
-  text-align: center;
-  padding: 10px;
-
-  grid-column: 3 / 5;
-  grid-row: 7 / 9;
-}
-
-.footer-grid .p3 {
-  text-align: center;
-  padding-top: 10px;
-
-  grid-column: 3 / 5;
-  grid-row: 10 / 11;
-
-  margin-bottom: 2rem;
-}
-
-.footer-grid .p3 img {
-  height: 40%;
-}
-
-.hans {
-  display: none;
-}
-
-@media screen and (min-width: 350px)
- {
-   .hans {
-    display: inline;
-     position: absolute;
-     height: 40%;
-     right: -91px;
-     bottom: 176px;
-     rotate: 327deg;
-    }
+  footer p {
+    color: var(--primary-bg-color);
   }
-    
 
-@media screen and (min-width: 900px) {
+  footer p strong {
+    color: var(--primary-bg-color);
+  }
 
   .footer-grid {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-template-rows: repeat(5, auto);
-    row-gap: 2rem;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(12, auto);
   }
 
   .footer-grid .logo {
-    grid-column: 3 / 4;
-    width: 60%;
+    width: 50%;
+    margin-top: 2rem;
+    justify-self: center;
+
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
   }
 
   .footer-grid .p1 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 5;
+    text-align: center;
+    padding: 10px;
+    
+    grid-column: 3 / 5;
+    grid-row: 4 / 6;
   }
 
   .footer-grid .p2 {
-    grid-column: 3 / 4;
-    grid-row: 3 / 5;
+    text-align: center;
+    padding: 10px;
+
+    grid-column: 3 / 5;
+    grid-row: 7 / 9;
   }
 
   .footer-grid .p3 {
-    grid-column: 4 / 5;
-    grid-row: 3 / 5;
+    text-align: center;
+    padding-top: 10px;
+
+    grid-column: 3 / 5;
+    grid-row: 10 / 11;
+
+    margin-bottom: 2rem;
   }
 
   .footer-grid .p3 img {
-    height: 30%;
-}
+    height: 40%;
+  }
 
-.hans {
-    position: absolute;
-    height: 70%;
-    right: -5rem;
-    bottom: 0;
-    rotate: 0deg;
-}
+  .hans {
+    display: none;
+  }
 
-  
-}
+
+    
