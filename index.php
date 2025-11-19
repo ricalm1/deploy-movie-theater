@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/offer.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
 
 
 </head>
@@ -20,78 +21,67 @@
         <img class="logo" src="images/Logga(1).png">
     </header>
     <div class="image-container">
-        <img class="hero-img" src="images/FILEZILLAAA.png">
-        <div class="button-container">
-            <h1>Filezilla -<br> King of Monsters</h1><br>
-            <button class="button-main">Get your tickets now!</button><br>
-            <button class="button-info">About the movie</button>
+        <img class="hero-img" src="/images/FILEZILLA.png">
+        <div class="heroInfoContainer">
+            <h1 class="title">Filezilla -<br> King of Monsters</h1>
+            <div class="button-container">
+                <a href="moviepage.php" class="button-info">
+                    Get your tickets! <img src="images/button-arrow.png">
+                </a>
+                <button class="button-main">About the movie! <img src="images/button-arrow.png"></button></a>
+            </div>
         </div>
     </div>
+    <h3>Watch now! </h3>
 
     <section class="carousel">
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/drypoet.png">
+
+
+        </div>
         </div>
 
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/GreatGitsby.png">
+
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Brokebackend.png">
+
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/GOODWILLCODING.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/gitPullfiction.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/commitment.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/nowyoucme.png">
+
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/dieploy.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Undefined.png">
+
+        </div>
         </div>
     </section>
 
@@ -119,70 +109,49 @@
             <button>Subscribe</button>
         </div>
     </div>
+    </div>
+    <h3>Coming soon!</h3>
     <section class="carousel">
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
-        </div>
+            <img src="/images/GreatGitsby.png">
 
-        <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Brokebackend.png">
+
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/GOODWILLCODING.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/gitPullfiction.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/commitment.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/nowyoucme.png">
+
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/dieploy.png">
+
+        </div>
         </div>
         <div class="card">
-            <img src="">
-            <div class="card-text">
-                <p><strong>Produktnamn</strong> <br>
-                    Pris</p>
-            </div>
+            <img src="/images/Undefined.png">
+
+        </div>
         </div>
     </section>
 

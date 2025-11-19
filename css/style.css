@@ -1,30 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Londrina+Sketch&family=Noto+Serif+Oriya:wght@400..700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Story+Script&display=swap');
 
-.image-container {
-    position: relative;
-    display: inline-block;
-    width: 100vw;
-    height: 50vh; 
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/FILEZILLA.png");
-    background-size: 100% auto;
+
+:root {
+    --primary-bg-color: #39192F;
+    --secondary-bg-color: #510038;
+    --contrast-color:#DAB57C;
+    --contrast-button:#CD9C51;
+    --gold-100: #C18325;
+    --gold-40:#e6cea8;
+    --purple-medium:#780058;
+    --purple-medium-light:#9b006a;
+    --primary-txt-color:#F3E6D3;
+    --main-button-color:#E14FB3;
+    --primary-font-family: 'Passion One', sans-serif;
+    --p-font-family: 'Poppins', sans-serif;
+    --light-grey: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
-  .secondary-background {
-    background-color: var(--secondary-bg-color);
-    padding: 20px;
-  }
+body{
+    background-color: var(--primary-bg-color);
+    size: 16px;
+ }
 
-  .divider-gold {
-    height: 3px;
-    background-color: #CD9C51;
-  }
-  
-  .hero-img {
-    width: 100vw;          
-    height: 100%;     
+ h1 {
+  font-family: Passion One;
+  color: var(--primary-txt-color);
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 1px;
+/*   position: absolute;
+  left:37;
+  top:20; */
+ }
+
+ h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--primary-font-family);
+    color:var(--primary-txt-color);
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+h3 {
     display: block;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 4rem;
+    color: var(--primary-txt-color);
+    --primary-font-family: 'Passion One', sans-serif;
+    padding-bottom: 1rem;
+}
 
+
+ p {
+  font-family: Poppins;
+  font-size: 16px;
+  color: var(--primary-txt-color);
+  margin-bottom: 10px;
+  font-weight: 300;
+ }
+
+  p strong {
+  font-family: Poppins;
+  font-size: 16px;
+  color: var(--primary-txt-color);
+  margin-bottom: 10px;
+  font-weight: 600;
+ }
+
+.bold {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
 #gallery-grid {
   display: none;
@@ -35,25 +91,10 @@
     margin-top: 2vh;
 }
 
-.offer{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-}
-
 .carousel-container{
     background-color: var(--secondary-bg-color);
     display: flex;
     justify-content: center;
-
-}
-
-.offer > img:last-of-type {
-    width: 30%;
-    height: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
 }
 
 .newsletter{
@@ -88,56 +129,11 @@
   padding: 2rem;
   background-color: var(--contrast-button);
   text-align: center;
-
   font-family: var(--p-font-family);
   color: var(--primary-bg-color);
 }
 
-
-
-body{
-    background-color: var(--primary-bg-color);
-    margin: 0;
- }
-
- h1{
-    color:white;
-    font-family: 'Passion One';
-    font-weight: 500;
-    font-size: 4rem;
-    margin: 0 0 1rem 0;
-    line-height: 1.2;
-}
-
-h2{
-    font-size: 3rem;
-}
-
-.logo{
-    width: 20%;
-    /* height: 0%; */
-    margin: 2% 2%;  
-}
-
-header {
-    background-color: var(--secondary-bg-color);
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-  
-.hero-img {
-    width: 100%;               
-    display: block;
-    max-height: 750px;  
-    object-fit: cover;  
-    filter: brightness(0.5);
-}
-
-.button-container {   
+.heroInfoContainer {
     position: absolute;  
     bottom: 80px;        
     left: 50%;           
@@ -147,55 +143,32 @@ header {
     align-items: center;
     width: 90%;
     max-width: 600px;
-    gap: 10px;
-    padding: 0 20px;
+    gap: 10px;  
 }
 
-.button-main{
-    background-color: var(--contrast-button);
-}
-
-.button-info{
-    background-color: var(--main-button-color);
-}
-  
-.button-main, .button-info {
-    border: none;
-    padding: 12px 30px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    font-family: 'Poppins', sans-serif;
-    width: 250px;
-    text-align: center;
-}
-  
-.button-main:hover,
-.button-info:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
-}
-
-
-
-.carousel-img{
-    width: 30%;
-    margin-top: 2vh;
-}
-
-h2{
-    text-align: center;
-    font-family: var(--primary-font-family);
-    color:var(--contrast-color);       
-}
-
-.carousel-container{
+.button-container {             
     display: flex;
-    justify-content: center;
-    margin: 6rem 0;
-
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    gap: 10px;
 }
+
+.title {
+    text-align: center;
+}
+
+
+.carousel {
+    margin-left: 1rem;
+    margin-right: 0;
+    display: flex;
+    column-gap: 0.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
 
 .newsletter-section {
     background-color: #DAB57C;
@@ -206,6 +179,7 @@ h2{
 .newsletter-section h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    padding: 2rem   ;
     color: var(--primary-bg-color);
 }
 
@@ -225,16 +199,21 @@ h2{
     flex-wrap: wrap; 
     padding: 0 10px; 
 }
-
-.newsletter-form input {
+.newsletter-form input{
     flex: 1;
-    min-width: 4rem; 
-    font-size: 1rem;
-    border: none;
+    min-width: 4rem;
+    width: 20px; 
+    padding: 12px 16px;
+    font-size: 16px; 
+    font-family: inherit;
+    color: #333;
+    border: 2px solid #e0e0e0;
     border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: small;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: all 0.3s ease;
 }
+
+  
 
 .newsletter-form input::placeholder {
     color: rgba(0, 0, 0, 0.4);
@@ -251,8 +230,4 @@ h2{
     min-width: 150px; 
 }
 
-.upcoming-movies{
-    display: flex;
-    justify-content: center;
-}
 
