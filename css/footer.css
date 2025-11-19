@@ -61,5 +61,12 @@
     display: none;
   }
 
+  .copyright {
+  padding: 2rem;
+  background-color: var(--contrast-button);
+  text-align: center;
+  font-family: var(--p-font-family);
+  color: var(--primary-bg-color);
+}
 
     

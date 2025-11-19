@@ -118,24 +118,43 @@
 
     <!--YOU MAY ALSO LIKE CAROUSEL-->
     <div class="secondary-background gallery-carousel">
-        <h2>YOU MAY ALSO LIKE</h2>
+        <h2>Coming soon!</h2>
         <section class="carousel">
+
             <div class="card">
-                <img src="">
+                <img src="/images/GreatGitsby.png">
             </div>
 
             <div class="card">
-                <img src="">
+                <img src="/images/Brokebackend.png">
+
+            </div>
+            <div class="card">
+                <img src="/images/GOODWILLCODING.png">
             </div>
 
             <div class="card">
-                <img src="">
+                <img src="/images/gitPullfiction.png">
             </div>
 
             <div class="card">
-                <img src="">
+                <img src="/images/commitment.png">
             </div>
+
+            <div class="card">
+                <img src="/images/nowyoucme.png">
+            </div>
+
+            <div class="card">
+                <img src="/images/dieploy.png">
+            </div>
+
+            <div class="card">
+                <img src="/images/Undefined.png">
+            </div>
+
         </section>
+
     </div>
 
     <?php

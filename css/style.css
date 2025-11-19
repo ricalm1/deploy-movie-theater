@@ -1,102 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Londrina+Sketch&family=Noto+Serif+Oriya:wght@400..700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Story+Script&display=swap');
+/* --- HOME PAGE --- */
 
-
-:root {
-    --primary-bg-color: #39192F;
-    --secondary-bg-color: #510038;
-    --contrast-color:#DAB57C;
-    --contrast-button:#CD9C51;
-    --gold-100: #C18325;
-    --gold-40:#e6cea8;
-    --purple-medium:#780058;
-    --purple-medium-light:#9b006a;
-    --primary-txt-color:#F3E6D3;
-    --main-button-color:#E14FB3;
-    --primary-font-family: 'Passion One', sans-serif;
-    --p-font-family: 'Poppins', sans-serif;
-    --light-grey: #D9D9D9;
+/* --- HERO --- */
+.heroInfoContainer {
+    position: absolute;  
+    bottom: 80px;        
+    left: 50%;           
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    gap: 10px;  
 }
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-    /* overflow-x: hidden; */
-  }
-
-  .secondary-background {
-    background-color: var(--secondary-bg-color);
-    padding: 3rem;
-  }
-
- h1 {
-  font-family: Passion One;
-  color: var(--primary-txt-color);
-  font-size: 40px;
-  font-weight: normal;
-  letter-spacing: 1px;
-/*   position: absolute;
-  left:37;
-  top:20; */
- }
-
- h2{
+.title {
     text-align: center;
-    font-size: 30px;
-    font-family: var(--primary-font-family);
-    color:var(--primary-txt-color);
-    text-transform: uppercase;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    font-size: 4rem;
-    color: var(--primary-txt-color);
-    --primary-font-family: 'Passion One', sans-serif;
-    padding-bottom: 1rem;
-}
+} 
 
 
- p {
-  font-family: Poppins;
-  font-size: 16px;
-  color: var(--primary-txt-color);
-  margin-bottom: 10px;
-  font-weight: 300;
- }
-
-  p strong {
-  font-family: Poppins;
-  font-size: 16px;
-  color: var(--primary-txt-color);
-  margin-bottom: 10px;
-  font-weight: 600;
- }
-
-.bold {
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-#gallery-grid {
-  display: none;
-}
-
-.carousel-img{
-    width: 30%;
-    margin-top: 2vh;
-}
-
-.carousel-container{
-    background-color: var(--secondary-bg-color);
+/* --- UPCOMING MOVIES ---*/
+.upcoming-movies{
     display: flex;
     justify-content: center;
 }
 
+
+/* ACTIVE IN COMPONENTS */
+/* .carousel {
+    margin-left: 1rem;
+    margin-right: 0;
+    display: flex;
+    column-gap: 0.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+} */
+
+
+/* --- NEWS LETTER SECTION ---*/
 .newsletter{
     background-color: var(--contrast-color);
     width: 100%;
@@ -117,58 +59,6 @@ h3 {
     border-radius: 5px;
     color:grey;
 }
-
-.upcoming-movies{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.copyright {
-  padding: 2rem;
-  background-color: var(--contrast-button);
-  text-align: center;
-  font-family: var(--p-font-family);
-  color: var(--primary-bg-color);
-}
-
-.heroInfoContainer {
-    position: absolute;  
-    bottom: 80px;        
-    left: 50%;           
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    max-width: 600px;
-    gap: 10px;  
-}
-
-.button-container {             
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    gap: 10px;
-}
-
-.title {
-    text-align: center;
-}
-
-
-.carousel {
-    margin-left: 1rem;
-    margin-right: 0;
-    display: flex;
-    column-gap: 0.5rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-}
-
 
 .newsletter-section {
     background-color: #DAB57C;
@@ -199,6 +89,7 @@ h3 {
     flex-wrap: wrap; 
     padding: 0 10px; 
 }
+
 .newsletter-form input{
     flex: 1;
     min-width: 4rem;
@@ -212,8 +103,6 @@ h3 {
     background-color: rgba(255, 255, 255, 0.5); 
     transition: all 0.3s ease;
 }
-
-  
 
 .newsletter-form input::placeholder {
     color: rgba(0, 0, 0, 0.4);
@@ -229,5 +118,3 @@ h3 {
     cursor: pointer;
     min-width: 150px; 
 }
-
-
