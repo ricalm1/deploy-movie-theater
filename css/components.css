@@ -30,18 +30,7 @@ body {
 
 /* --- FONTS ---*/
       
-h1 {
-font-family: Passion One;
-color: var(--primary-txt-color);
-font-size: 2rem;
-font-weight: normal;
-letter-spacing: 1px;
-/*   position: absolute;
-  left:37;
-  top:20; */
-}
-
-h2 {
+h1, h2 {
   font-family: var(--primary-font-family);
   font-size: 2rem;
   text-align: center;
@@ -51,7 +40,6 @@ h2 {
     
   color:var(--primary-txt-color);
   text-transform: uppercase;
-    
 }
 
 h3 {
@@ -135,14 +123,25 @@ p strong {
     gap: 10px;
 } */
 
+/* --- LAYOUT --- */
+.divider-gold {
+  height: 3px;
+  background-color: #CD9C51;
+}
+
+.secondary-background {
+  background-color: var(--secondary-bg-color);
+  padding: 1rem;
+}
+
 
 /* --- CAROUSELS -- */
 
 .carousel {
-  margin-left: 1rem;
-  margin-right: 0;
   margin-top: 2rem;
   margin-bottom: 3rem;
+
+  width: 100vw;
 
   display: flex;
   column-gap: 1rem;
@@ -166,8 +165,8 @@ p strong {
 
 .card::scroll-marker {
   content: '';
-  height: 20px;
-  width: 20px;
+  height: 1rem;
+  width: 1rem;
   border-radius: 50%;
   background-color: var(--gold-40);
 }
@@ -204,8 +203,3 @@ p strong {
 } */
 
 
-
-/* --- MOVIE PAGE: GALLERY HIDDEN ON MOBILE --- */
-#gallery-grid {
-  display: none;
-}

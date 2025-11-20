@@ -28,6 +28,31 @@
         bottom: 30px;
         gap: 8px;
     }
+    
+    /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
+
+    .moviepage-movie-presentation button {
+        bottom: -4rem;
+        left: 44%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 49%;
+    }
+
+    /* -- MOVIE PAGE: MOVIE INFORMATION -- */
+    .moviepage-info-boxes {
+        flex-wrap: wrap;
+        gap: 1rem;
+        max-width: 70%;
+
+        margin: 1.5rem 0;
+    }
+
+    .moviepage-info-box {
+        margin: 0;
+    }
 
     /* —- FOOTER: HANS —- */
     .hans {
@@ -40,6 +65,45 @@
     }
 
 }
+
+@media screen and (min-width: 390px) {
+    
+    /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
+    .moviepage-movie-presentation button {
+        left: 41%;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 45%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    
+    /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
+    .moviepage-movie-presentation-h1 {
+        left: 38%;
+        font-size: 2rem;
+
+    }
+
+    .moviepage-movie-presentation button {
+        left: 35%;
+        padding: 1rem 0.7rem 1rem 0.7rem;
+        bottom: -5rem;
+    }
+
+    .moviepage-info-boxes {
+        max-width: 100%;
+    }
+
+    /* --- MOVIE PAGE: MOVIE INFORMATION --- */
+    .moviepage-movie-information {
+        margin: 30% 2rem 10% 2rem;
+    }
+    
+}
+    
 
 
 @media (min-width: 600px) {
@@ -58,6 +122,44 @@
         width: 220px;
     } */
 
+     /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
+    .moviepage-movie-presentation-h1 {
+        left: 32%;
+    }
+
+    .moviepage-movie-presentation button {
+        left: 30%;
+    }
+
+    /* --- MOVIE PAGE: MOVIE INFORMATION --- */
+    .moviepage-movie-information {
+        margin: 25% 2rem 5% 2rem;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) {
+    
+    /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
+    .moviepage-poster {
+        left: 11%;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 34%;
+        max-width: 30%;
+    }
+
+    .moviepage-movie-presentation button {
+        left: 32%;
+    }
+
+    /* --- MOVIE PAGE: MOVIE INFORMATION --- */
+    .moviepage-movie-information {
+        margin: 25% 5rem 5% 5rem;
+    }
+    
 }
 
 
@@ -95,17 +197,35 @@
 
 
 @media screen and (min-width: 900px) {
+
+    /* --- MOVIE PAGE: MOVIE PRESENTATION --- */
+    .moviepage-poster {
+        left: 12%;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 30%;
+    }
+    
+    .moviepage-movie-presentation button {
+        left: 28%;
+    }
+
+    /* --- MOVIE PAGE: MOVIE INFORMATION --- */
+    .moviepage-movie-information {
+        margin: 20% 7rem 10% 7rem;
+    }
         
     /* —- MOVIE PAGE: BOOKING MODULE —- */
-    .booking-module {
+    .moviepage-booking-module {
         align-items: center;
     }
 
-    .booking-module-text p {
+    .moviepage-booking-module-text p {
         align-self: center;
     }
 
-    .booking-module button {
+    .moviepage-booking-module button {
         position: static;
         margin-top: 2rem;
     }
@@ -163,6 +283,55 @@
         max-width: 800px;
     }
 
+    /* --- MOVIE PAGE: MOVIE PRESENTATION --- */
+    .moviepage-poster {
+        height: 60%;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 31%;
+        font-size: 2.5rem;
+        max-width: 25%;
+    }
+    
+    .moviepage-movie-presentation button {
+        left: 30%;
+    }
+
+    /* --- MOVIE PAGE: MOVIE INFORMATION --- */
+    .moviepage-movie-information {
+        margin: 15% 7rem 5% 7rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .moviepage-movie-information h2 {
+        width: 48%;
+        padding-left: 1rem;
+        align-content: center;
+    }
+
+    .moviepage-info-boxes {
+        width: 48%;
+        padding-left: 1rem;
+    }
+
+    .moviepage-movie-information p {
+        max-width: 48%;
+        padding: 1rem;
+    }
+
+    .moviepage-movie-information-details {
+        width: 48%;
+        padding: 1rem;
+    }
+
+    .moviepage-movie-information-details p {
+        max-width: 100%;
+        padding: 0;
+    }
+
     /* -- FOOTER --*/
     .footer-logo img {
         max-width: 350px;
@@ -178,12 +347,13 @@
 @media screen and (min-width: 1200px) {
 
     /* —- MOVIE PAGE: MOVIE PRESENTATION —- */
-    .image-container {
+    .moviepage-image-container {
         height: 70vh;
     }
     
     .moviepage-poster {
-        left: 15%;
+        left: 10%;
+        height: 55%;
     }
 
     .image-container h1 {
@@ -204,16 +374,17 @@
     }
 
     /* —- MOVIE PAGE: GALLERY —- */
-    .gallery-carousel {
+
+    .moviepage-gallery-carousel {
         display: none;
     }
 
-    #gallery-grid {
+    #moviepage-gallery-grid {
         display: grid;
         padding: 3rem 0 3rem 0;
     }
 
-    .gallery-grid-container {
+    .moviepage-gallery-grid-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -223,41 +394,41 @@
         margin: 3rem 0rem 3rem 0rem;
     }
 
-    .gallery-grid-container div img {
+    .moviepage-gallery-grid-container div img {
         width: 100%;
         height: auto;
     }
         
-    .gallery-grid-container div:first-child {
+    .moviepage-gallery-grid-container div:first-child {
         grid-column: 1 / 3 ;
         grid-row: 1 / 4;
         background-color: black;
     }
         
-    .gallery-grid-container div:nth-child(2) {
+    .moviepage-gallery-grid-container div:nth-child(2) {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
         background-color: black;
     }
         
-    .gallery-grid-container div:nth-child(3) {
+    .moviepage-gallery-grid-container div:nth-child(3) {
         grid-column: 4 / 5;
         grid-row: 1 / 2;
         background-color: black;
     }
         
-    .gallery-grid-container div:nth-child(4) {
+    .moviepage-gallery-grid-container div:nth-child(4) {
         grid-column: 3 / 5;
         grid-row: 2 / 4;
         background-color: black;
     }    
        
-    .gallery-grid-container div {
+    .moviepage-gallery-grid-container div {
         contain: content;
     }
 
-    .gallery-grid-container div:nth-child(2) img,
-    .gallery-grid-container div:nth-child(3) img {
+    .moviepage-gallery-grid-container div:nth-child(2) img,
+    .moviepage-gallery-grid-container div:nth-child(3) img {
             height: 100%;
     }
     
@@ -315,5 +486,30 @@
         bottom: 0;
         rotate: 0deg;
     }
+
+}
+
+
+@media screen and (min-width: 1350px) {
+
+    /*--- MOVIE PAGE: MOVIE PRESENTATION ---*/
+    .moviepage-poster {
+        left: 11%;
+    }
+
+    .moviepage-movie-presentation-h1 {
+        left: 29%;
+    }
+    
+    .moviepage-movie-presentation button {
+        left: 28%;
+    }
+
+    /*--- MOVIE PAGE: MOVIE INFORMATION ---*/
+    .moviepage-movie-information {
+        max-width: 79%;
+        justify-self: center;
+    }
+    
 
 }
