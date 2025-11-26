@@ -72,11 +72,12 @@
 <div class="newsletter-section">
     <h2>Don't miss out on any news or offers!</h2>
     <p>Sign up to our news letter for the latest updates and special offers.</p>
-
     <div class="newsletter-form">
         <input type="email" placeholder="Your email...">
-        <button>Subscribe</button>
+        <button class="newsletter-button"><img src="/images/light-arrow.svg"></button>
     </div>
+</div>
+</div>
 </div>
 </div>
 
