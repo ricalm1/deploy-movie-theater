@@ -115,7 +115,7 @@
 
     <h2 class="coming-soon-header">Coming soon!</h2>
 
-    <h3>Coming soon!</h3>
+
     <section class="carousel">
 
         <div class="card">
