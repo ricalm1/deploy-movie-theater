@@ -21,7 +21,7 @@
         <img class="logo" src="images/Logga(1).png">
     </header>
     <div class="image-container">
-        <img class="hero-img" src="/images/FILEZILLA.png">
+        <img class="hero-img" src="/images/filezilacrazy.png">
         <div class="heroInfoContainer">
             <h1 class="title">Filezilla -<br> King of Monsters</h1>
             <div class="button-container">
@@ -41,6 +41,10 @@
         </div>
 
         <div class="card">
+            <img src="/images/abugslife.png">
+        </div>
+
+        <div class="card">
             <img src="/images/GreatGitsby.png">
         </div>
 
@@ -49,8 +53,13 @@
         </div>
 
         <div class="card">
+            <img src="/images/FILEZILLA.png">
+        </div>
+
+        <div class="card">
             <img src="/images/GOODWILLCODING.png">
         </div>
+
 
         <div class="card">
             <img src="/images/gitPullfiction.png">
@@ -71,6 +80,8 @@
         <div class="card">
             <img src="/images/Undefined.png">
         </div>
+
+
 
     </section>
 
