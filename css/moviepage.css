@@ -5,13 +5,13 @@
 }
 
 .moviepage-image-container {
-  /* position: relative; */
   display: inline-block;
   width: 100vw;
   height: 50vh; 
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/FILEZILLA.png");
-  background-size: 100%;
+  background-image: linear-gradient(rgb(0 0 0 / 0%), rgba(0, 0, 0, 0.6)), url(../images/filezilacrazy.png);
+  background-size: cover;
+  background-position: center;
   overflow-y: hidden;
 }
 
@@ -79,21 +79,30 @@
 #moviepage-gallery-grid {
   display: none;
 }
-
+/* 
 .moviepage-gallery-carousel .carousel {
   width: 90vw;
   justify-self: center;
-}
+} */
 
 .moviepage-gallery-carousel .card {
-  flex: 0 0 100vw;
+  flex: 0 0 290px;
+  height: 390px;
   overflow-y: hidden;
+  overflow-x: hidden;
+
+  display: flex;
+  justify-content: center;
 }
 
-.moviepage-gallery-carousel .card img {
-  max-width: 100%;
-  height: 100%;
+.moviepage-carousel .card img {
+  width: auto;
 }
+
+/* .moviepage-gallery-carousel .card img {
+  width: auto;
+  height: 100%;
+} */
 
 /* --- BOOKING MODULE --- */
 
@@ -181,4 +190,8 @@
   position: absolute;
   right: 10%;
   bottom: 2rem;
+}
+
+.moviepage-carousel h2 {
+  margin-top: 4rem;
 }

@@ -51,7 +51,7 @@
     </section>
 
     <!--GALLERY CAROUSEL-->
-    <div class="secondary-background moviepage-gallery-carousel">
+    <div class="secondary-background moviepage-gallery-carousel moviepage-carousel">
         <h2>GALLERY</h2>
         <section class="carousel">
             <div class="card">
@@ -117,7 +117,7 @@
     <div class="divider-gold"></div>
 
     <!--YOU MAY ALSO LIKE CAROUSEL-->
-    <div class="secondary-background">
+    <div class="secondary-background moviepage-carousel">
         <h2>Coming soon!</h2>
         <section class="carousel">
 

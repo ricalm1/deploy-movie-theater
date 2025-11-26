@@ -78,15 +78,15 @@
     <section class="offer">
 
 
-    <div id="popcorn">
-        <img src="/images/popcorn.png">
-        <div class="popcorn-content">
-            <h2>Don't miss out!</h2>
-            <p>Buy 2 tickets today, get a small popcorn with your choice of seasoning!</p>
-            <button class="button-info">Get your tickets!</button>
+        <div id="popcorn">
+            <img src="/images/popcorn.png">
+            <div class="popcorn-content">
+                <h2>Don't miss out!</h2>
+                <p>Buy 2 tickets today, get a small popcorn with your choice of seasoning!</p>
+                <button class="button-info">Get your tickets!</button>
+            </div>
+            <p class="popcorn-disclaimer"><small>Normal price 120kr. Valid until midnight.</small></p>
         </div>
-        <p class="popcorn-disclaimer"><small>Normal price 120kr. Valid until midnight.</small></p>
-    </div>
 
     </section>
     <div class="newsletter-section">
@@ -99,7 +99,7 @@
         </div>
     </div>
     </div>
-    
+
     <h3>Coming soon!</h3>
     <section class="carousel">
 
@@ -109,8 +109,8 @@
 
         <div class="card">
             <img src="/images/Brokebackend.png">
-
         </div>
+
         <div class="card">
             <img src="/images/GOODWILLCODING.png">
         </div>
