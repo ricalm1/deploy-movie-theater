@@ -1,11 +1,8 @@
-header {
-    display: flex;
-    align-items: center; 
-    height: 7vh;
-    margin-top:0.5rem;
+header { 
+    height: 9vh;
+    margin: 20px;
 
-}
-
+} 
 header .logo {
     max-height: 100%;
     width: auto;

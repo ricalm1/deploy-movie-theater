@@ -34,10 +34,8 @@ h1, h2 {
   font-family: var(--primary-font-family);
   font-size: 2rem;
   text-align: center;
-    
   font-weight: normal;
   letter-spacing: 1px;
-    
   color:var(--primary-txt-color);
   text-transform: uppercase;
 }
@@ -140,9 +138,7 @@ p strong {
 .carousel {
   margin-top: 2rem;
   margin-bottom: 3rem;
-
   width: 100vw;
-
   display: flex;
   column-gap: 1rem;
         

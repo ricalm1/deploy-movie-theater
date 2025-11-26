@@ -88,6 +88,8 @@
             <p class="popcorn-disclaimer"><small>Normal price 120kr. Valid until midnight.</small></p>
         </div>
 
+
+
     </section>
     <div class="newsletter-section">
         <h2>Don't miss out on any news or offers!</h2>
@@ -95,10 +97,12 @@
 
         <div class="newsletter-form">
             <input type="email" placeholder="Your email...">
-            <button>Subscribe</button>
+            <button class="newsletter-button"><img src="/images/light-arrow.png"></button>
         </div>
     </div>
     </div>
+
+    <h2 class="coming-soon-header">Coming soon!</h2>
 
     <h3>Coming soon!</h3>
     <section class="carousel">
