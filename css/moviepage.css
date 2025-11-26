@@ -1,149 +1,197 @@
-.movie-presentation {
-    position: relative;
-  }
+/* --- MOVIEPAGE ---*/
 
-  .image-container {
-    position: relative;
-  }
-
-  .image-container h1 {
-    position: absolute;
-    bottom: 1rem;
-    left: 47%;
-    width: 50%;
-    font-size: 2rem; 
-  }
-
-  .moviepage-poster {
-    position: absolute;
-    right: 58%;
-    bottom: -25%;
-    height: 50%;
-
-    border: 0.2rem solid var(--contrast-color);
-    border-radius: 0.5rem;
-  }
-
-  .movie-presentation button {
-    position: absolute;
-    bottom: -5rem;
-    left: 47%;
-  }
-
-  .movie-information {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 40% 1.5rem 20% 1.5rem;
-  }
-
-  .movie-information h2 {
-    text-align: left;
-  }
-
-  .info-boxes {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .info-box {
-    background-color: var(--gold-100);
-    padding: 5px 10px 5px 10px;
-    border-radius: 50px;
-    margin-left: 0px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    font-family: Poppins;
-    font-size: 14px;
-    color: var(--primary-txt-color);
-    font-weight: 200;
-  }
-
-  /* --- BOOKING MODULE --- */
-
-  .booking-module {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 3rem 2rem 6rem 2rem;
-    position: relative;
-  }
-
-  .booking-module-text {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-
-  .booking-module-text p strong {
-    font-size: 18px;
-  }
-
-  .booking-module-text h2{
-    text-align: left;
-    margin-bottom: 0.3rem;
-  }
-
-  .date-block-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 0.3rem;
-    font-family: var(--p-font-family);
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .date-block {
-      background-color: var(--light-grey);
-      padding: 0.5rem;
-      border-radius: 0.3rem;
-      width: 68px;
-      height: 43px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 500;
+.moviepage-movie-presentation {
+  position: relative;
 }
 
-#date-block-selected {
-    background-color: var(--contrast-color);
+.moviepage-image-container {
+  display: inline-block;
+  width: 100vw;
+  height: 50vh; 
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(0 0 0 / 0%), rgba(0, 0, 0, 0.6)), url(../images/filezilacrazy.png);
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
 }
 
-  #more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.moviepage-movie-presentation-h1 {
+  position: absolute;
+  bottom: 1rem;
+  left: 45%;
+  width: 50%;
+  font-size: 1.7rem;
+  text-transform: none;
+  text-align: left;
+}
 
-    .time-block-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 0.3rem;
-    font-family: var(--p-font-family);
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-  }
+.moviepage-poster {
+  position: absolute;
+  left: 5%;
+  bottom: -25%;
+  height: 50%;
 
-  .time-block {
-      background-color: var(--light-grey);
-      padding: 0.5rem;
-      border-radius: 0.3rem;
-      width: 68px;
-      height: 43px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 500;
-  }
+  border: 0.2rem solid var(--contrast-color);
+  border-radius: 0.5rem;
+}
 
-  .booking-module button {
-    position: absolute;
-    right: 10%;
-    bottom: 2rem;
-  }
+.moviepage-movie-presentation button {
+  position: absolute;
+  bottom: -4rem;
+  left: 45%;
+}
+
+
+/* --- MOVIE INFORMATION --- */
+.moviepage-movie-information {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 40% 1.5rem 20% 1.5rem;
+}
+
+.moviepage-movie-information h2 {
+  text-align: left;
+}
+
+.moviepage-info-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.moviepage-info-box {
+  background-color: var(--gold-100);
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  color: var(--primary-txt-color);
+  font-weight: 200;
+}
+
+/* --- GALLERY --- */
+
+/* --- GALLERY GRID HIDDEN ON MOBILE --- */
+#moviepage-gallery-grid {
+  display: none;
+}
+/* 
+.moviepage-gallery-carousel .carousel {
+  width: 90vw;
+  justify-self: center;
+} */
+
+.moviepage-gallery-carousel .card {
+  flex: 0 0 290px;
+  height: 390px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  display: flex;
+  justify-content: center;
+}
+
+.moviepage-carousel .card img {
+  width: auto;
+}
+
+/* .moviepage-gallery-carousel .card img {
+  width: auto;
+  height: 100%;
+} */
+
+/* --- BOOKING MODULE --- */
+
+.moviepage-booking-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 2rem 6rem 2rem;
+  position: relative;
+}
+
+.moviepage-booking-module-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.moviepage-booking-module-text p strong {
+  font-size: 18px;
+}
+
+.moviepage-booking-module-text h2{
+  text-align: left;
+  margin-bottom: 0.3rem;
+}
+
+.moviepage-date-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.3rem;
+  font-family: var(--p-font-family);
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.moviepage-date-block {
+  background-color: var(--light-grey);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 68px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+#moviepage-date-block-selected {
+  background-color: var(--contrast-color);
+}
+
+#moviepage-booking-module-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moviepage-time-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.3rem;
+  font-family: var(--p-font-family);
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.moviepage-time-block {
+  background-color: var(--light-grey);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 68px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.moviepage-booking-module button {
+  position: absolute;
+  right: 10%;
+  bottom: 2rem;
+}
+
+.moviepage-carousel h2 {
+  margin-top: 4rem;
+}

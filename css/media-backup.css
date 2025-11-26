@@ -1,0 +1,243 @@
+
+
+@media (min-width: 768px) {
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1.5fr;
+        gap: 40px;
+        align-items: start;
+        padding: 0 40px;
+    }
+    
+    .footer-contact {
+        grid-column: 1;
+    }
+    
+    .footer-links {
+        grid-column: 2;
+    
+    }
+    
+    .footer-socials {
+        grid-column: 3;
+    }
+}
+    
+    
+
+
+@media (min-width: 1024px) {
+    .footer-logo img {
+        max-width: 350px;
+    }
+    
+    .footer-container {
+        gap: 60px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #popcorn {
+        min-height: 500px;
+        padding: 60px 40px;
+    }
+    
+    .popcorn-content h2 {
+        font-size: 3rem;
+    }
+    
+    .popcorn-content p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #popcorn {
+        min-height: 600px;
+    }
+    
+    .popcorn-content {
+        max-width: 800px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        bottom: 40px;
+    }
+    
+   /*  .button-main, .button-info {
+        width: 220px;
+    } */
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .button-main, .button-info {
+        /* width: 180px; */
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    
+    .button-container {
+        bottom: 30px;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .button-main, .button-info {
+        /* width: 160px; */
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .booking-module {
+        align-items: center;
+    }
+
+    .booking-module-text p {
+        align-self: center;
+    }
+
+    .booking-module button {
+        position: static;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+  .image-container {
+    height: 70vh;
+  }
+  
+  .moviepage-poster {
+    left: 15%;
+  }
+
+  .image-container h1 {
+    left: 35%;
+    text-align: start;
+    font-size: 3rem;
+  }
+
+  .image-container button {
+    left: 35%;
+  }
+
+  .movie-information {
+    margin: 18% 15% 10% 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5rem;
+  }
+
+  .gallery-carousel {
+    display: none;
+  }
+
+  #gallery-grid {
+    display: grid;
+    padding: 3rem 0 3rem 0;
+  }
+
+  .gallery-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    height: 620px;
+
+    margin: 3rem 0rem 3rem 0rem;
+  }
+
+  .gallery-grid-container div {
+    contain: content;
+  }
+
+  .gallery-grid-container div:first-child {
+    grid-column: 1 / 3 ;
+    grid-row: 1 / 4;
+    background-color: black;
+  }
+
+  .gallery-grid-container div:nth-child(2) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: black;
+  }
+  
+  .gallery-grid-container div:nth-child(3) {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-color: black;
+  }
+  
+  .gallery-grid-container div:nth-child(4) {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+    background-color: black;
+  }
+
+  .gallery-grid-container img {
+    width: 100%;
+  }
+
+  .heroInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;  
+    bottom: 80px;        
+    left: 30%;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+
+}
+@media (min-width: 768px) {
+    .hero-img {
+        object-position: 50% 30%;
+    }
+}
+
+
+
+@media screen and (min-width: 350px)
+ {
+   .hans {
+    display: inline;
+     position: absolute;
+     height: 40%;
+     right: -91px;
+     bottom: 176px;
+     rotate: 327deg;
+    }
+  }
+    
+

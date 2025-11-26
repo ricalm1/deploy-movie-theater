@@ -1,72 +1,72 @@
-
-
-footer{
+  footer{
     background-color: var(--contrast-color);
     position: relative;
+    overflow-x: hidden;
   }
 
-footer p {
-      color: var(--primary-bg-color);
-}
-footer p strong {
-      color: var(--primary-bg-color);
-}
+  footer p {
+    color: var(--primary-bg-color);
+  }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(14, auto);
-}
+  footer p strong {
+    color: var(--primary-bg-color);
+  }
 
-.footer-grid .logo {
-  width: 50%;
-  margin-top: 2rem;
-  justify-self: center;
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(12, auto);
+  }
 
-  grid-column: 3 / 5;
-  grid-row: 2 / 3;
-}
+  .footer-grid .logo {
+    width: 50%;
+    margin-top: 2rem;
+    justify-self: center;
 
-.footer-grid .p1 {
-  text-align: center;
-  padding: 10px;
-  
-  grid-column: 3 / 5;
-  grid-row: 4 / 6;
-}
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+  }
 
-.footer-grid .p2 {
-  text-align: center;
-  padding: 10px;
+  .footer-grid .p1 {
+    text-align: center;
+    padding: 10px;
+    
+    grid-column: 3 / 5;
+    grid-row: 4 / 6;
+  }
 
-  grid-column: 3 / 5;
-  grid-row: 7 / 9;
-}
+  .footer-grid .p2 {
+    text-align: center;
+    padding: 10px;
 
-.footer-grid .p3 {
-  text-align: center;
-  padding-top: 10px;
+    grid-column: 3 / 5;
+    grid-row: 7 / 9;
+  }
 
-  grid-column: 3 / 5;
-  grid-row: 10 / 11;
-}
+  .footer-grid .p3 {
+    text-align: center;
+    padding-top: 10px;
 
-.footer-grid .grid-logos {
-  justify-self: center;
-  margin-bottom: 2rem;
+    grid-column: 3 / 5;
+    grid-row: 10 / 11;
 
-  grid-column: 3 / 5;
-  grid-row: 11 / 12;
-}
+    margin-bottom: 2rem;
+  }
 
-.footer-grid .grid-logos img {
-  height: 70%;
-}
-
-.hans {
-    position: absolute;
+  .footer-grid .p3 img {
     height: 40%;
-    right: -91px;
-    bottom: 176px;
-    rotate: 327deg;
+  }
+
+  .hans {
+    display: none;
+  }
+
+  .copyright {
+  padding: 2rem;
+  background-color: var(--contrast-button);
+  text-align: center;
+  font-family: var(--p-font-family);
+  color: var(--primary-bg-color);
 }
+
+    
