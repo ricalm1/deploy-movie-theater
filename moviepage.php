@@ -1,27 +1,6 @@
 <?php require_once __DIR__ . "/header.php"; ?>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/moviepage.css">
-    <link rel="stylesheet" href="css/offer.css">
-    <link rel="stylesheet" href="css/media.css">
-
-</head>
-
-<body>
-
-    <header>
-        <img class="logo" src="images/Logga(1).png">
-    </header> -->
+<span class="header-spacer"></span>
 
 <!-- BACKGROUND IMAGE, MOVIE POSTER, H1 & BUTTON -->
 <section class="moviepage-movie-presentation">
@@ -120,7 +99,7 @@
 
 <!--YOU MAY ALSO LIKE CAROUSEL-->
 <div class="secondary-background moviepage-carousel">
-    <h2>Coming soon!</h2>
+    <h2>Coming soon</h2>
     <section class="carousel">
 
         <div class="card">

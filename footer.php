@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-grid">
-        <img class="logo" src="images/logo-black.png">
+        <img class="logo" src="images/logo-deploy-black.svg">
         <section class="p1">
             <p><strong>Contact</strong><br>
                 Learningstreet 3<br>

@@ -1,4 +1,8 @@
 /* --- MOVIEPAGE ---*/
+.header-spacer {
+  height: 100px;
+  display: block;
+}
 
 .moviepage-movie-presentation {
   position: relative;
@@ -8,11 +12,12 @@
   display: inline-block;
   width: 100vw;
   height: 50vh; 
+  overflow-y: hidden;
+  
   background-repeat: no-repeat;
   background-image: linear-gradient(rgb(0 0 0 / 0%), rgba(0, 0, 0, 0.6)), url(../images/filezilacrazy.png);
   background-size: cover;
-  background-position: center;
-  overflow-y: hidden;
+  background-position: 50% 15%;
 }
 
 .moviepage-movie-presentation-h1 {
@@ -39,8 +44,8 @@
   position: absolute;
   bottom: -4rem;
   left: 45%;
+  margin: 1rem;
 }
-
 
 /* --- MOVIE INFORMATION --- */
 .moviepage-movie-information {
@@ -187,9 +192,10 @@
 }
 
 .moviepage-booking-module button {
-  position: absolute;
+  /* position: absolute;
   right: 10%;
-  bottom: 2rem;
+  bottom: 2rem; */
+  margin-left: 0;
 }
 
 .moviepage-carousel h2 {
