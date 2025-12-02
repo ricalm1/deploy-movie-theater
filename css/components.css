@@ -20,6 +20,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  overscroll-behavior: none;
 }
       
 body {
@@ -34,12 +35,9 @@ h1, h2 {
   font-family: var(--primary-font-family);
   font-size: 2rem;
   text-align: center;
-    
   font-weight: normal;
   letter-spacing: 1px;
-    
   color:var(--primary-txt-color);
-  text-transform: uppercase;
 }
 
 h3 {
@@ -51,6 +49,9 @@ h3 {
   letter-spacing: 1px;
     
   color:var(--primary-txt-color);
+}
+
+h2, h3 {
   text-transform: uppercase;
 }
       
@@ -79,8 +80,8 @@ p strong {
       
 .button-main, .button-info {
   border: none;
-  padding: 1rem 0.7rem 1rem 0.7rem;
-  margin: 1rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  /* margin: 1rem; */
   border-radius: 8px;
 
   color: var(--primary-bg-color);
@@ -137,14 +138,21 @@ p strong {
 
 /* --- CAROUSELS -- */
 
+.carousel-container-watchnow {
+  margin: 10rem 1rem 5rem 1rem;
+}
+
+.carousel-container {
+  margin: 5rem 1rem;
+}
+
 .carousel {
   margin-top: 2rem;
   margin-bottom: 3rem;
-
-  width: 100vw;
-
+  width: 94vw;
   display: flex;
   column-gap: 1rem;
+  justify-self: center;
         
   overflow-x: auto;
   scroll-behavior: smooth;

@@ -18,5 +18,5 @@
 
 <body>
     <header>
-        <img class="logo" src="images/Logga(1).png">
+        <a href="/index.php"><img class="logo" src="images/logo-deploy-primary.svg"></a>
     </header>

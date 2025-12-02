@@ -7,21 +7,17 @@
     
     .button-main, .button-info {
         /* width: 160px; */
-            font-size: 13px;
+            font-size: 16px;
     }
     
 }
 
 @media screen and (min-width: 360px) {
-        
-    h1 {
-        font-size: 1.8rem;
-    }
     
     .button-main, .button-info {
         /* width: 180px; */
-        font-size: 14px;
-        padding: 10px 20px;
+        font-size: 16px;
+        /* padding: 10px 20px; */
     }
         
     .button-container {
@@ -34,7 +30,7 @@
     .moviepage-movie-presentation button {
         bottom: -4rem;
         left: 44%;
-        padding: 10px 10px 10px 10px;
+        /* padding: 10px 10px 10px 10px; */
     }
 
     .moviepage-movie-presentation-h1 {
@@ -82,14 +78,13 @@
     
     /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
     .moviepage-movie-presentation-h1 {
-        left: 38%;
+        left: 39%;
         font-size: 2rem;
-
     }
 
     .moviepage-movie-presentation button {
-        left: 35%;
-        padding: 1rem 0.7rem 1rem 0.7rem;
+        left: 36%;
+        /* padding: 1rem 0.7rem 1rem 0.7rem; */
         bottom: -5rem;
     }
 
@@ -125,7 +120,7 @@
 
      /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
     .moviepage-movie-presentation-h1 {
-        left: 32%;
+        left: 33%;
     }
 
     .moviepage-movie-presentation button {
@@ -141,6 +136,7 @@
 
 
 @media screen and (min-width: 700px) {
+
     
     /* -- MOVIE PAGE: MOVIE PRESENTATION -- */
     .moviepage-poster {
@@ -148,12 +144,12 @@
     }
 
     .moviepage-movie-presentation-h1 {
-        left: 34%;
+        left: 35%;
         max-width: 30%;
     }
 
     .moviepage-movie-presentation button {
-        left: 32%;
+        left: 33%;
     }
 
     /* --- MOVIE PAGE: MOVIE INFORMATION --- */
@@ -228,9 +224,9 @@
     }
 
 
-    .hero-img {
+    /* .hero-img {
         object-position: 50% 30%;
-    }
+    } */
 
     /* -— HOME PAGE: OFFER -— */
 
@@ -267,11 +263,11 @@
     }
 
     .moviepage-movie-presentation-h1 {
-        left: 30%;
+        left: 31%;
     }
     
     .moviepage-movie-presentation button {
-        left: 28%;
+        left: 29%;
     }
 
     /* --- MOVIE PAGE: MOVIE INFORMATION --- */
@@ -352,13 +348,13 @@
     }
 
     .moviepage-movie-presentation-h1 {
-        left: 31%;
+        left: 32%;
         font-size: 2.5rem;
         max-width: 25%;
     }
     
     .moviepage-movie-presentation button {
-        left: 30%;
+        left: 31%;
     }
 
     /* --- MOVIE PAGE: MOVIE INFORMATION --- */
@@ -394,6 +390,7 @@
         max-width: 100%;
         padding: 0;
     }
+
 
     /* -- FOOTER --*/
     .footer-logo img {
@@ -463,7 +460,7 @@
 
     .footer-grid .logo {
         grid-column: 3 / 4;
-        width: 60%;
+        width: 50%;
     }
 
     .footer-grid .p1 {
@@ -504,11 +501,11 @@
     }
 
     .moviepage-movie-presentation-h1 {
-        left: 29%;
+        left: 30%;
     }
     
     .moviepage-movie-presentation button {
-        left: 28%;
+        left: 29%;
     }
 
     /*--- MOVIE PAGE: MOVIE INFORMATION ---*/
@@ -516,6 +513,25 @@
         max-width: 79%;
         justify-self: center;
     }
+
+    /*-- FOOTER --*/
+    .footer-grid .logo {
+        width: 40%;
+    }
     
+
+@media screen and (min-width: 1650px) {
+
+    /*--- MOVIE PAGE: MOVIE PRESENTATION ---*/
+    .moviepage-movie-presentation-h1 {
+        left: 27%;
+    }
+    
+    .moviepage-movie-presentation button {
+        left: 26%;
+    }
+
+
+}
 
 }
